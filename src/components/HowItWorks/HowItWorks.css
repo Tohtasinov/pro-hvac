@@ -1,0 +1,60 @@
+/* src/components/HowItWorks.css */
+.how-it-works-container {
+  background-color: #002060;
+  padding: 40px 20px;
+  text-align: center;
+  color: white !important;
+}
+
+.how-it-works-container h2 {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.step {
+  flex: 1;
+  max-width: 30%;
+  text-align: left;
+  padding: 20px;
+  margin: 10px;
+  position: relative;
+}
+
+.step-number {
+  background-color: #2672f3;
+  border-radius: 50%;
+  color: white;
+  font-size: 1.5em;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.step-content h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.step-content p {
+  font-size: 1em;
+}
+
+@media (max-width: 768px) {
+  .step {
+    max-width: 100%;
+    margin: 20px 0;
+  }
+
+  .steps {
+    flex-direction: column;
+  }
+}

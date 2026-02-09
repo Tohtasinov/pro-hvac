@@ -1,0 +1,130 @@
+.appbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  color: white;
+  width: 100%;
+  z-index: 9999;
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.appbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  border-radius: 50px;
+}
+
+.appbar-nav Typography {
+  color: white;
+  font-weight: bold;
+  margin: 0 12px;
+  text-decoration: none;
+}
+
+.appbar-contact {
+  display: flex;
+  align-items: center;
+}
+
+.appbar-phone {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+  background-color: #ed1c24;
+  padding: 16px 24px;
+  border-radius: 30px;
+}
+
+.phone-icon {
+  margin-right: 4px;
+}
+
+.appbar-search {
+  cursor: pointer;
+}
+
+.appbar-burger {
+  display: none;
+}
+
+.drawer-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.drawer-list {
+  padding: 0;
+}
+
+.drawer-list .MuiListItem-root {
+  padding: 16px 24px;
+}
+@media (min-width: 768px) {
+  .appbar {
+    background-color: #8bbfd9;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .appbar-nav,
+  .appbar-contact {
+    display: none;
+  }
+
+  .appbar-burger {
+    display: block;
+    color: white;
+  }
+
+  .drawer {
+    width: 100%;
+  }
+
+  .drawer-list .MuiListItem-root {
+    text-align: center;
+  }
+}
+
+/* Only show burger menu on mobile devices */
+@media (max-width: 768px) {
+  .appbar {
+    padding: 10px 20px;
+    justify-content: end;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .css-c89fku {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+  }
+
+  .appbar-logo {
+    display: none;
+    color: white;
+  }
+
+  .appbar-nav,
+  .appbar-contact {
+    display: none; /* Hide nav and contact info on mobile */
+  }
+
+  .appbar-burger {
+    display: block; /* Show burger menu on mobile */
+    color: #070a4f;
+  }
+}
+
+.appbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.appbar a:hover {
+  text-decoration: underline;
+}

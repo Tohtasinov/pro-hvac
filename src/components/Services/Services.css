@@ -1,0 +1,24 @@
+.services-container {
+  padding: 40px;
+}
+
+.services-title {
+  font-size: 58px;
+  margin-bottom: 40px;
+  color: #002060;
+}
+
+.services-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: nowrap;
+}
+
+@media (max-width: 768px) {
+  .services-title {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #002060;
+  }
+}

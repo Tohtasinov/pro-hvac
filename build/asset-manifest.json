@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.26342a95.css",
+    "main.js": "/static/js/main.6a2aa553.js",
+    "static/js/453.b37940c7.chunk.js": "/static/js/453.b37940c7.chunk.js",
+    "static/media/About_us_photo.jpg": "/static/media/About_us_photo.b127790cbfa7eec5ae2f.jpg",
+    "static/media/Cooling_services.jpg": "/static/media/Cooling_services.4966c88e020d9f4202f2.jpg",
+    "static/media/photo_2025-07-09_06-18-08.jpg": "/static/media/photo_2025-07-09_06-18-08.5a60b7455dd0aa3e9118.jpg",
+    "static/media/heating1.jpg": "/static/media/heating1.d8fc77338019404df4a9.jpg",
+    "static/media/header_photo1.jpg": "/static/media/header_photo1.d663dda79fc259feab25.jpg",
+    "static/media/About-us_photo2.jpg": "/static/media/About-us_photo2.98c1002ea46838ce7138.jpg",
+    "static/media/About-us_photo1.jpg": "/static/media/About-us_photo1.7476480d01644c568298.jpg",
+    "static/media/photo_2025-07-09_06-17-58.jpg": "/static/media/photo_2025-07-09_06-17-58.55ac476df253e61b935e.jpg",
+    "static/media/HVACCC.jpg": "/static/media/HVACCC.97177dea9edc462baaf1.jpg",
+    "static/media/photo_2025-07-09_06-17-37.jpg": "/static/media/photo_2025-07-09_06-17-37.97177dea9edc462baaf1.jpg",
+    "static/media/logo HVAC.jpg": "/static/media/logo HVAC.553367ab6f3baeb62b67.jpg",
+    "static/media/chatIcon.png": "/static/media/chatIcon.9535e054773793d5a3ea.png",
+    "static/media/water_heaters.jpg": "/static/media/water_heaters.075ae3cf3ba35571faa4.jpg",
+    "static/media/heating_services.jpg": "/static/media/heating_services.c4beba8e93dfd12278d4.jpg",
+    "static/media/logo_of_the_carrier_corporation.svg.webp": "/static/media/logo_of_the_carrier_corporation.svg.8bffc1c18a1327b2b519.webp",
+    "static/media/phone-call.png": "/static/media/phone-call.d35848942c955a6232b3.png",
+    "static/media/goodman-air-conditioning-and-heating-logo-vector.png": "/static/media/goodman-air-conditioning-and-heating-logo-vector.74c1c188c67aa06380f0.png",
+    "static/media/bryant-logo.webp": "/static/media/bryant-logo.f39728a69cec2b00f6fd.webp",
+    "index.html": "/index.html",
+    "main.26342a95.css.map": "/static/css/main.26342a95.css.map",
+    "main.6a2aa553.js.map": "/static/js/main.6a2aa553.js.map",
+    "453.b37940c7.chunk.js.map": "/static/js/453.b37940c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26342a95.css",
+    "static/js/main.6a2aa553.js"
+  ]
+}
