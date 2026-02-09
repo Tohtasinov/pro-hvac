@@ -12,68 +12,68 @@ import ReviewCard from "./ReviewCard";
 const Reviews = () => {
   const isMobile = useMediaQuery("(max-width: 600px)");
 
-  const list = [
+ const list = [
     {
       id: 1,
-      author: "John Smith from Chicago",
+      author: "John S. Chicago",
       quote:
-        "The heating system installation was quick and professional. I feel cozy all winter thanks to their expertise!",
+        "AirFix came the same day and fixed our AC fast. Clear pricing and very professional.",
     },
     {
       id: 2,
-      author: "Emily Johnson from Evanston",
+      author: "Emily J. Evanston",
       quote:
-        "Excellent AC repair service! They fixed my unit the same day and it’s running perfectly.",
+        "Great furnace repair service. The technician explained everything and had it running in no time.",
     },
     {
       id: 3,
-      author: "Michael Lee from Oak Lawn",
+      author: "Michael L. Oak Lawn",
       quote:
-        "Friendly and knowledgeable technicians. They helped me choose the right HVAC system for my home and installed it flawlessly.",
+        "We replaced our HVAC system with AirFix. Smooth install, clean work, and great communication.",
     },
     {
       id: 4,
-      author: "Sarah Davis from Naperville",
+      author: "Sarah D. Naperville",
       quote:
-        "Prompt and reliable emergency service when my heater stopped working. Highly recommend this company!",
+        "Emergency call at night, and they still helped us quickly. Really reliable team.",
     },
     {
       id: 5,
-      author: "David Martinez from Chicago",
+      author: "David M. Skokie",
       quote:
-        "Great customer support and competitive pricing. My air conditioning has never worked better.",
+        "Maintenance visit was thorough. They checked everything and gave helpful tips to save energy.",
     },
     {
       id: 6,
-      author: "Lisa Brown from Skokie",
+      author: "Lisa B. Schaumburg",
       quote:
-        "Professional team and very courteous technicians. The ductless heating and cooling system they installed is fantastic!",
+        "AirFix installed a smart thermostat and tuned the system. Home feels much more comfortable now.",
     },
     {
       id: 7,
-      author: "Robert Wilson from Schaumburg",
+      author: "Robert W. Des Plaines",
       quote:
-        "They provided a thorough maintenance service for my HVAC system and gave me great advice on energy savings.",
+        "Water heater repair was quick and affordable. Tech was polite and explained the problem clearly.",
     },
     {
       id: 8,
-      author: "Patricia Taylor from Aurora",
+      author: "Patricia T. Oak Park",
       quote:
-        "Fast response and expert repair on my furnace. Very happy with the quality of work and reasonable prices.",
+        "Appliance repair was excellent. They fixed our dryer the same day and it works like new.",
     },
     {
       id: 9,
-      author: "James Anderson from Des Plaines",
+      author: "James A. Cicero",
       quote:
-        "The team was very professional and respectful of my home while installing a new thermostat and heating system.",
+        "Our refrigerator stopped cooling and AirFix diagnosed it fast. Honest service and fair price.",
     },
     {
       id: 10,
-      author: "Karen Thomas from Oak Park",
+      author: "Karen T. Chicago",
       quote:
-        "Reliable and efficient service for both heating and cooling. I trust them for all my HVAC needs.",
+        "We use AirFix for both heating and cooling. Consistent quality every time.",
     },
-  ];
+  ]
 
   return (
     <Box id="reviews" sx={{ px: { xs: "16px", md: "100px" }, mb: "100px" }}>
@@ -81,7 +81,8 @@ const Reviews = () => {
         variant="h4"
         sx={{ my: "80px", textAlign: "center", color: "black" }}
       >
-        OUR HAPPY CUSTOMERS
+                What Customers Say About AirFix
+
       </Typography>
       <Swiper
         loop={true}

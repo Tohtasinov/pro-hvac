@@ -59,19 +59,21 @@ const categories = [
       "Need water heater repair or thinking about a new installation? We provide fast, reliable service to keep your hot water running.",
   },
   {
-    name: ["24/7 Emergency services", "Seasonal tune-ups"],
+    name: ["Appliance Repair"],
     color: "#f5f5f5",
     colorDark: "#333",
     image:
       "https://static.vecteezy.com/system/resources/thumbnails/050/623/994/small_2x/two-construction-workers-on-a-roof-inspecting-an-ac-unit-photo.jpeg",
     services: [
-      "Residential and Commercial HVAC",
-      "Indoor Air Quality",
-      "Duct work",
-      "Maintenance Plans",
+      "Refrigerator Repair",
+      "Washer and Dryer Repair",
+      "Dishwasher Repair",
+      "Oven and Stove Repair",
+      "Garbage Disposal",
     ],
     description:
-      "From full system installations to emergency repairs, we handle all your HVAC needs efficiently.",
+      "Professional appliance repair for all major household appliances. Fast diagnostics and reliable fixes you can trust.",
+  
   },
 ];
 

@@ -1,6 +1,6 @@
 import React from "react";
 import "./ReasonsToChoose.css";
-import image from "../../assets/HVACCC.jpg";
+import image from "../../assets/logo-airFix.jpeg";
 import houseRepairIcon from "../../assets/home-icon.png";
 import toolsIcon from "../../assets/tools.png";
 import priceTagIcon from "../../assets/price.png";
@@ -12,41 +12,42 @@ import { Box } from "@mui/material";
 const reasons = [
   {
     icon: houseRepairIcon,
-    title: "Customer Satisfaction Guarantee",
+    title: "Trusted Local Company",
     description:
-      "We are committed to providing exceptional HVAC services that prioritize your comfort and satisfaction at every step.",
+      "AirFix is a locally owned company focused on long-term customer relationships, not one-time repairs.",
   },
   {
     icon: toolsIcon,
-    title: "Experienced HVAC Technicians",
+    title: "Skilled & Certified Technicians",
     description:
-      "Our team consists of skilled, certified professionals with extensive experience in diagnosing and solving all HVAC challenges.",
+      "Our technicians are licensed, EPA-certified, and experienced in HVAC and appliance repair.",
   },
   {
     icon: priceTagIcon,
-    title: "Transparent & Honest Pricing",
+    title: "Upfront Pricing",
     description:
-      "We believe in upfront, clear pricing with no hidden fees, ensuring you know exactly what to expect for your heating and cooling services.",
+      "You get clear options and honest pricing before any work begins. No hidden fees, no surprises.",
   },
   {
     icon: customerServiceIcon,
-    title: "Friendly Customer Support",
+    title: "Fast & Friendly Service",
     description:
-      "Our dedicated support team is here to answer your questions and provide guidance, making your HVAC experience seamless and stress-free.",
+      "We respect your time. Same-day service and responsive support when you need help the most.",
   },
   {
     icon: warrantyIcon,
-    title: "Reliable Warranty Coverage",
+    title: "Work You Can Rely On",
     description:
-      "We stand by our work, offering warranties on both parts and labor to give you confidence and peace of mind for your HVAC investment.",
+      "We stand behind our repairs with warranty coverage on parts and labor for your peace of mind.",
   },
   {
     icon: safetyIcon,
-    title: "Safety & Quality Standards",
+    title: "Safety First, Always",
     description:
-      "We strictly follow industry standards and safety protocols in every project, ensuring the well-being of your property and family.",
+      "Every job is completed following strict safety and quality standards to protect your home.",
   },
 ];
+
 
 const ReasonsToChoose = () => {
   return (

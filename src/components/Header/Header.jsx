@@ -40,7 +40,7 @@ const Header = () => {
             transition={{ duration: 1, ease: "easeOut" }}
           >
             <span style={{ color: "#ED1C24" }}>Heating</span> and{" "}
-            <span style={{ color: "#4da5db" }}>Cooling</span> Experts
+            <span style={{ color: "#4da5db" }}>Cooling</span> & Appliance Repair
           </motion.h1>
 
           {!isMobile && (
@@ -50,8 +50,8 @@ const Header = () => {
               transition={{ duration: 1, delay: 0.5 }}
               style={{ color: "white" }}
             >
-              Heating, Cooling & Emergency Services 24/7 - Serving Chicago and
-              Surrounding Suburbs
+               AirFix provides fast, reliable HVAC and appliance repair services.
+              24/7 emergency support across Chicago and surrounding suburbs.
             </motion.p>
           )}
 
@@ -72,7 +72,7 @@ const Header = () => {
         </Box>
 
         {/* Promo card */}
-        <motion.div
+        {/* <motion.div
           className="promo-card"
           initial={{ opacity: 0, y: 30, scale: 0.98 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
@@ -92,7 +92,7 @@ const Header = () => {
           <button className="promo-cta" onClick={handlePromoClick}>
             Get Started Now
           </button>
-        </motion.div>
+        </motion.div> */}
       </Box>
     </Box>
   );

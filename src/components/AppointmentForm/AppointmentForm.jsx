@@ -12,7 +12,7 @@ import {
   useMediaQuery,
   Paper,
 } from "@mui/material";
-import photo from "../../assets/photo_2025-07-09_06-18-08.jpg";
+import photo from "../../assets/AirFix.jpg";
 
 const AppointmentForm = () => {
   const isMobile = useMediaQuery("(max-width:600px)");

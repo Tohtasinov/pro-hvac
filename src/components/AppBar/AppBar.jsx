@@ -13,7 +13,7 @@ import {
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import PhoneIcon from "@mui/icons-material/Phone"; // Import PhoneIcon
-import logo from "../../assets/logo HVAC.jpg";
+import logo from "../../assets/logo-airFix.jpeg";
 
 const AppBar = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -70,7 +70,7 @@ const AppBar = () => {
                 href="tel:+13129997977 "
                 style={{ color: "white", textDecoration: "none" }}
               >
-                (312) 999-7977 
+                (999) 999-9999 
               </a>
             </Typography>
           </Box>

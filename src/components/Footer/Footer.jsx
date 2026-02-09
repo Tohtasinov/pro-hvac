@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Typography, useMediaQuery } from "@mui/material";
-import icon from "../../assets/logo HVAC.jpg";
+import icon from "../../assets/logo-airFix.jpeg";
 import carrierLogo from "../../assets/logo_of_the_carrier_corporation.svg.webp"; // добавь свои пути
 import bryantLogo from "../../assets/bryant-logo.webp";
 import goodman from "../../assets/goodman-air-conditioning-and-heating-logo-vector.png";
@@ -46,9 +46,10 @@ const Footer = () => {
             }}
           />
           <Typography variant="body1" maxWidth={400}>
-            We show up on time, work clean, and always give honest prices with
-            no surprises. Whether it’s your home or small business, we’re here
-            to help you stay cool in the summer and warm in the winter.
+             AirFix provides reliable heating, cooling, and appliance repair
+            services. We show up on time, work clean, and give honest upfront
+            pricing. From HVAC systems to everyday home appliances, we help keep
+            your home running smoothly year-round.
           </Typography>
         </Box>
 
@@ -66,9 +67,9 @@ const Footer = () => {
             Contact Information
           </Typography>
           <Box display="flex" flexDirection="column" gap={1}>
-            <Typography variant="body1">Phone: (312) 999-7977 </Typography>
+            <Typography variant="body1">Phone: (999) 999-9999 </Typography>
             <Typography variant="body1">
-              Email: ibeisheev@gmail.com
+              Email: support@airfixservice.com
             </Typography>
           </Box>
         </Box>
@@ -152,7 +153,7 @@ const Footer = () => {
             marginBottom: "-10px",
           }}
         >
-          Copyright © 2025 PRO HVAC Heating and Cooling. All rights reserved.
+          © 2026 AirFix. Heating, Cooling & Appliance Repair. All rights reserved.
         </Typography>
       </Box>
     </Box>
