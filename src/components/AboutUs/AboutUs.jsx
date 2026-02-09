@@ -5,27 +5,9 @@ import "./AboutUs.css";
 import photo1 from "../../assets/AirFix.jpg";
 
 
-// можно добавить сюда новые фотки и задавать им sizeClass (large, medium, small)
-const galleryImages = [
-  { src: photo1, alt: "Work 1", sizeClass: "large" },
-  { src: photo1, alt: "Work 3", sizeClass: "medium" },
-  { src: photo1, alt: "Work 6", sizeClass: "large" },
-  { src: photo1, alt: "Work 7", sizeClass: "large" },
-  { src: photo1, alt: "Work 8", sizeClass: "large" },
-  { src: photo1, alt: "Work 9", sizeClass: "medium" },
 
-  // Добавьте здесь новые фото, например:
-  // { src: photo7, alt: "Work 7", sizeClass: "small" },
-];
 
-const calculateJobsDone = () => {
-  const startDate = new Date("2024-07-09");
-  const currentDate = new Date();
-  const timeDifference = currentDate - startDate;
-  const daysDifference = Math.floor(timeDifference / (1000 * 3600 * 24));
-  const baseNumber = 32026;
-  return baseNumber + daysDifference * 3;
-};
+
 
 const AboutUs = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);

@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "./Header.css";
 import { Box, useMediaQuery } from "@mui/material";
 import AppBar from "../AppBar/AppBar";
@@ -20,14 +20,14 @@ const Header = () => {
     }
   };
 
-  const handlePromoClick = () => {
-    const element = document.getElementById("contact-us");
-    if (element) {
-      const yOffset = -100;
-      const y = element.getBoundingClientRect().top + window.scrollY + yOffset;
-      window.scrollTo({ top: y, behavior: "smooth" });
-    }
-  };
+  // const handlePromoClick = () => {
+  //   const element = document.getElementById("contact-us");
+  //   if (element) {
+  //     const yOffset = -100;
+  //     const y = element.getBoundingClientRect().top + window.scrollY + yOffset;
+  //     window.scrollTo({ top: y, behavior: "smooth" });
+  //   }
+  // };
 
   return (
     <Box id="home">
