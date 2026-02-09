@@ -3,14 +3,7 @@ import { Box, Typography, Chip } from "@mui/material";
 import "./AboutUs.css";
 
 import photo1 from "../../assets/AirFix.jpg";
-import photo2 from "../../assets/photo_2025-07-09_06-17-37.jpg";
-import photo3 from "../../assets/photo_2025-07-09_06-17-58.jpg";
-import photo4 from "../../assets/photo_2025-07-09_06-18-08.jpg";
-import photo5 from "../../assets/heating_services.jpg";
-import photo6 from "../../assets/Cooling_services.jpg";
-import photo7 from "../../assets/About_us_photo.jpg";
-import photo8 from "../../assets/About-us_photo1.jpg";
-import photo9 from "../../assets/About-us_photo2.jpg";
+
 
 // можно добавить сюда новые фотки и задавать им sizeClass (large, medium, small)
 const galleryImages = [
